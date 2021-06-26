@@ -1,0 +1,26 @@
+ul.navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  height: 100%;
+  top:150px;
+  overflow: auto;
+  font-size: x-large;
+  font-color:black;
+}
+
+ul.navlist.li a {
+  display: block;
+  color: red;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+
+li a:hover{
+  background-color: #555;
+
+}
