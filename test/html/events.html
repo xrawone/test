@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--Code By Webdevtrick ( https://webdevtrick.com )-->
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>NASUC</title>
+<script>
+ function change_tab(id)
+ {
+   document.getElementById("page_content").innerHTML=document.getElementById(id+"_desc").innerHTML;
+   document.getElementById("page1").className="notselected";
+   document.getElementById("page2").className="notselected";
+   document.getElementById("page3").className="notselected";
+   document.getElementById(id).className="selected";
+ }
+</script>
+</head>
+<body>
+ <!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Kare Foundation</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/carousel.css">
+        <link rel="stylesheet" href="css/1.css">
+        <link rel="stylesheet" href="css/layou.css">
+        <link rel="stylesheet" href="css/faq.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+
+</head>
+
+<body>
+<div class="icon-bar">
+  <a href="#dsf" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#dfs" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
+
+	<!--================Header Menu Area =================-->
+<div class="wrapper active-element">
+        <header class="main-header">
+            <nav>
+                <div class="masthead active-element">
+                    <a href="test.html">
+	              <img src="images/sample-logo.png" alt="NASUC" style="float:left";>
+	            </a>
+                                            
+                </div>  
+                       </nav>
+                    <div style="color:blue;text-align:center;font-size: 3vw;z-index:1200;" class="name"><h1 ><b><a href="#"><br>राष्ट्रिय आत्मनिर्भर अर्थतन्त्र निर्माण अभियान, नेपाल</a></b> </h1>
+                       
+                    </div> 
+
+                        
+        
+<div class="toggle">
+        <a href="index1.html">
+	              <img src="https://img.icons8.com/material-rounded/48/000000/home.png"/>
+	            </a>
+    </div>
+    <div class="menu">
+                    <div style="color:blue;text-align:center;font-size: 3vw;z-index:1200;" class="name"><h1 ><b><a href="#"><br>राष्ट्रिय आत्मनिर्भर अर्थतन्त्र निर्माण अभियान, नेपाल</a></b> </h1>
+                       
+                    </div> 
+
+ 
+    </div>
+  
+	</header>
+<div class="container">
+ 
+<div id="main_content">
+
+ <li class="selected" id="page1" onclick="change_tab(this.id);">PAST</li>
+ <li class="notselected" id="page2" onclick="change_tab(this.id);">CURRENT</li>
+ <li class="notselected" id="page3" onclick="change_tab(this.id);">COMMING</li>
+ 
+ <div class='hidden_desc' id="page1_desc">
+  <h2>Past</h2>
+  Past Events Not Available
+ </div>
+
+ <div class='hidden_desc' id="page2_desc">
+  <h2>Current</h2>
+Current Events Not Available
+ </div>
+ 
+ <div class='hidden_desc' id="page3_desc">
+  <h2>Comming</h2>
+ Comming Events Not Available
+</div>
+ 
+ <div id="page_content">
+  <h2>Past</h2>
+  Past Events Not Available
+ </div>
+ 
+</div>
+  
+</div>
+ 
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script  src="js/faq.js"></script>
+ 
+</body>
+</html>
